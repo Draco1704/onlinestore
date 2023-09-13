@@ -1,0 +1,13 @@
+.productos
+{
+    border: 1px solid #6a6a6a;
+    display: inline-block;
+    width: 240px;
+    height: 320px;
+    margin: 5px 7px;
+    border-radius: 4px;
+}
+
+.productos:hover {
+    border-color: orangered;
+}

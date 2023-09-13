@@ -1,14 +1,15 @@
 import Navbar from './componentes/navbar';
 import './App.css';
 import Footer from './componentes/footer';
-import Selector from './componentes/selectorcantidades';
+import Catalogo from './paginas/catalogo';
+
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <h1>Hola desde react</h1>
-      <Selector/>
+      <h1>Super venta de carros</h1>
+      <Catalogo/>
       <Footer></Footer>
     </div>
   );
