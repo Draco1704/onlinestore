@@ -20,9 +20,9 @@ function Selector()
     }
     return(
         <div className="selector">
-            <button disabled={cantidad === 1}onClick={decrece}>-</button>
+            <button className="btn btn-outline-primary" disabled={cantidad === 1}onClick={decrece}>-</button>
             <label>{cantidad}</label>
-            <button onClick={incrementa}>+</button>
+            <button className="btn btn-outline-primary" onClick={incrementa}>+</button>
         </div>
     )
 }

@@ -11,3 +11,16 @@
 .productos:hover {
     border-color: orangered;
 }
+
+.productos .precios
+{
+    display: flex;
+}
+
+.productos .precios label {
+    flex: 1;
+}
+.productos img {
+    width: 220px;
+    height: 190px;
+}

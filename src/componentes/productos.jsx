@@ -1,14 +1,21 @@
 import './productos.css';
 import Selector from './selectorcantidades';
 
-function Productos()
+function Productos(props)
 {
     return(
         <div className="productos">
-            <h5>Nombre</h5>
-        
+            <img src={"/imagenes/" + props.data.imagen}></img>
+            <h5>{props.data.nombre}</h5>
+            <div className='precios'>
+                <label>Precio: {props.data.precio}</label>
+                <label>Total: {props.data.precio}</label>
+
+            </div>
         <Selector/>
+        <button className='btn btn-sm btn-primary'>Agregar</button>
         </div>
+        
     )
 }
 

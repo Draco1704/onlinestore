@@ -2,6 +2,9 @@ import Navbar from './componentes/navbar';
 import './App.css';
 import Footer from './componentes/footer';
 import Catalogo from './paginas/catalogo';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+
 
 
 function App() {
