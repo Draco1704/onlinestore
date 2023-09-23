@@ -2,3 +2,7 @@
     background-color: azure;
     min-height: 90vh;
 }
+
+.catalogo .btn-filter {
+    margin: 5px;
+}

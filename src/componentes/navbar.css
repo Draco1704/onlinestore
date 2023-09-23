@@ -1,0 +1,81 @@
+/* Estilo general del cuerpo de la página */
+body {
+    background-color: #f0f5e9; /* Verde pastel */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo de los enlaces */
+  a {
+    color: #0074e4; /* Azul */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  /* Cambiar color de los enlaces al pasar el mouse sobre ellos */
+  a:hover {
+    color: #005aa7; /* Azul más oscuro */
+  }
+  
+  /* Estilo del encabezado (por ejemplo, para un encabezado de página) */
+  h1 {
+    color: #333; /* Negro */
+  }
+  
+  /* Estilo de fondo de botones */
+  .button {
+    background-color: #0074e4; /* Azul */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Cambiar color de fondo de botones al pasar el mouse sobre ellos */
+  .button:hover {
+    background-color: #005aa7; /* Azul más oscuro */
+  }
+  
+  /* Estilo de tarjetas o cajas de contenido */
+  .card {
+    background-color: #fff; /* Blanco */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  /* Estilo del pie de página */
+  footer {
+    background-color: #333; /* Fondo negro para el pie de página */
+    color: #fff; /* Texto blanco */
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  /* Estilo de la barra de navegación */
+  .navbar {
+    background-color: #0074e4; /* Azul para la barra de navegación */
+    color: #fff; /* Texto blanco en la barra de navegación */
+    padding: 10px 0;
+  }
+  
+  /* Estilo de los elementos de navegación en la barra de navegación */
+  .navbar a {
+    color: #fff; /* Texto blanco en los elementos de navegación */
+    margin-right: 20px; /* Espacio entre elementos de navegación */
+    text-decoration: none;
+  }
+  
+  /* Cambiar color de los elementos de navegación al pasar el mouse sobre ellos */
+  .navbar a:hover {
+    color: #005aa7; /* Azul más oscuro */
+  }
+  
+  /* Estilo del botón de hamburguesa en la barra de navegación */
+  .navbar-toggler-icon {
+    background-color: #fff; /* Ícono de hamburguesa blanco */
+  }
+  
