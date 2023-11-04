@@ -1,0 +1,8 @@
+.catalogo {
+    background-color: rgb(255, 255, 255);
+    min-height: 90vh;
+}
+
+.catalogo .btn-filter {
+    margin: 5px;
+}

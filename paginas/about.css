@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .links {
+    margin-bottom: 20px;
+  }
+  
+  .link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .link:hover {
+    background-color: #999;
+  }
